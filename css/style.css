@@ -41,46 +41,35 @@ body{
 }
 
 .hand{
-    /* position:absolute; */
+    position:absolute;
+    left:50vw;
+    transform-origin:0%;
+    transform:rotate(-90deg);
 }
 
 .hand--second{
-    position:absolute;
     width:140px;
     height:3px;
-    left:70px;
     z-index:10;
     background-color:#c50505;
     border-radius:30px;
     box-shadow:0px 0px 3px 1.5px rgba(0, 0, 0, 0.74);
-    transform-origin:100%;
-    transform:rotate(90deg);
 }
 
 .hand--minute{
-    position:absolute;
     width:130px;
     height:4px;
-    left:80px;
     z-index:20;
     background-color:#6e6b6b;
     border-radius:30px;
-    box-shadow:0px 0px 3px 1.5px rgba(0, 0, 0, 0.74);
-    transform-origin:100%;
-    transform:rotate(90deg);
-    
+    box-shadow:0px 0px 3px 1.5px rgba(0, 0, 0, 0.74); 
 }
 
 .hand--hour{
-    position:absolute;
     width:100px;
     height:5px;
-    left:70px;
     z-index:30;
     background-color:#3b3a3a;
     border-radius:30px;
     box-shadow:0px 0px 3px 1.5px rgba(0, 0, 0, 0.74);
-    transform-origin:100%;
-    transform:rotate(90deg);
-
 } 
